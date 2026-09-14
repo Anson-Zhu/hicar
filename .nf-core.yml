@@ -1,0 +1,16 @@
+repository_type: pipeline
+
+nf_core_version: 4.1.0
+
+lint: {}
+
+template:
+  org: nf-core
+  name: hicar
+  description: a bioinformatics best-practice analysis pipeline for HiC on Accessible
+    Regulatory DNA (HiCAR)
+  author: Jianhong
+  version: 1.0.0dev
+  force: true
+  outdir: .
+  is_nfcore: true
